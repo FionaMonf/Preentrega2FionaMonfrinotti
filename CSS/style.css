@@ -1,0 +1,66 @@
+@font-face {
+    font-family: Windsor;
+    src: url(https://strange.com.ar/build/assets/windsoref-bold-webfont-0d8f37c4.woff2) format("woff2"),url(https://strange.com.ar/build/assets/windsoref-bold-webfont-0d8f37c4.woff2) format("woff");
+    font-weight: 400;
+    font-style: normal
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #8d94d4 !important;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+}
+
+.logo {
+    height: 17vh;
+}
+
+/*NavBar*/
+.navbarf{
+    margin-left: 250px;
+    --bs-navbar-nav-link-padding-x: 6rem;
+}
+
+/*titulos*/
+h1 {
+    color: #000000;
+    font-family: Windsor,sans-serif;
+    font-size: 400%;
+    margin-bottom: 3vw;
+    text-align: center;
+    position: relative;  
+}
+
+.latas{
+     width:50vw;
+     margin-left: 25%;
+}
+
+/*quienes somos*/
+.sobreNosotros{
+    font-size: 26px;
+    color: #000000;
+    line-height: 1.5;
+    text-align: center;
+    font-family: monospace;
+}
+
+/*Estilos*/
+.estilos1{
+    font-size: 30px;
+    font-family: monospace;
+    font-style: italic;
+    text-shadow: #000000;
+    text-decoration: underline;

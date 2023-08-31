@@ -1,0 +1,33 @@
+<nav class="nav">
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="./Secciones/quienesSomos.html">¿Quienes somos?</a></li>
+                <li><a href="./Secciones/estilos.html">Estilos</a></li>
+                <li><a href="./Secciones/Contacto.html">Contacto</a></li>
+                <li><a href="./Secciones/Encontranos.html">Encontranos</a></li>
+            </ul>
+        </nav>
+
+
+
+
+
+/*NavBar*/
+.nav {
+    text-transform:initial;
+}
+
+.nav ul{
+    list-style-type: none;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    background-color: #000000;
+}
+
+a {
+    color:white
+}
