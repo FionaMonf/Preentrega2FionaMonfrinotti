@@ -33,7 +33,8 @@ header {
 
 /*NavBar*/
 .navbarf{
-    margin-left: 250px;
+    display: flex;
+    justify-content: center;
     --bs-navbar-nav-link-padding-x: 6rem;
 }
 
