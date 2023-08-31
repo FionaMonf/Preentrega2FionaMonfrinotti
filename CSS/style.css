@@ -85,14 +85,11 @@ h1 {
 
 /*Estilos*/
 
-
-
 .estilos1 {
     font-size: 25px;
     font-family: monospace;
     font-style: italic;
     text-shadow: #000000;
-    text-decoration: underline;
 }
 
 .estilos2 {
@@ -100,8 +97,31 @@ h1 {
     font-family: monospace;
     font-style: italic;
     text-shadow: #000000;
-    text-decoration: underline;
+}
 
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .latas{
+        width: 50%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .latas{
+        width: 50%;
+    }
 }
 
 
@@ -132,31 +152,10 @@ textarea{
 .grid-loyout{
     display: grid;
     grid-template-columns: auto auto auto;
-    
     justify-content: flex-start;
     margin-left: 100px;
+    gap: 30px;
 }
-
-.caja1{
-    
-
-.caja2{
-    
-    
-}
-
-.caja3{
-    
-}
-
-
-
-
-
-
-
-
-
 
 /*encontranos*/
 h3{
