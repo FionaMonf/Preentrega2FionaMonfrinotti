@@ -87,12 +87,21 @@ h1 {
 
 
 
-.cerveza1 {
-    
-    
-    
-   
-    
+.estilos1 {
+    font-size: 25px;
+    font-family: monospace;
+    font-style: italic;
+    text-shadow: #000000;
+    text-decoration: underline;
+}
+
+.estilos2 {
+    font-size: 25px;
+    font-family: monospace;
+    font-style: italic;
+    text-shadow: #000000;
+    text-decoration: underline;
+
 }
 
 
@@ -120,6 +129,25 @@ textarea{
     height: 12vh;
 }
 
+.grid-loyout{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+    justify-content: flex-start;
+    margin-left: 100px;
+}
+
+.caja1{
+    
+
+.caja2{
+    
+    
+}
+
+.caja3{
+    
+}
 
 
 
