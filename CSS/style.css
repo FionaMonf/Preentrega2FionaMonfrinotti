@@ -51,25 +51,6 @@ h1 {
     align-self: center;
 }
 
-/*quienes somos*/
-.sobreNosotros{
-    font-size: 26px;
-    color: #000000;
-    line-height: 1.5;
-    text-align: center;
-    font-family: monospace;
-}
-
-/*Estilos*/
-.estilos1{
-    font-size: 30px;
-    font-family: monospace;
-    font-style: italic;
-    text-shadow: #000000;
-    text-decoration: underline;
-}
-
-
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {}
 
@@ -91,4 +72,106 @@ h1 {
     .latas{
         width: 50%;
     }
+}
+
+/*quienes somos*/
+.sobreNosotros{
+    font-size: 26px;
+    color: #000000;
+    line-height: 1.5;
+    text-align: center;
+    font-family: monospace;
+}
+
+/*Estilos*/
+
+
+
+.cerveza1 {
+    
+    
+    
+   
+    
+}
+
+
+
+
+
+
+
+
+/*contactanos*/
+.contacto{
+    display: inline-flex;
+    flex-direction: column;
+    height: 40vh;
+    width: 40vw;
+    justify-content: space-around;
+    margin-left: 30%;
+}
+
+input {
+    height: 4vh;
+}
+
+textarea{
+    height: 12vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*encontranos*/
+h3{
+    font-size: 200%;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.hora1{
+    font-size: 150%;
+    flex-grow: 1;
+    line-height: 2;
+    text-align: center;
+}
+
+.hora2{
+    text-align: center;
+    font-size: 150%;
+    flex-grow: 1;
+    line-height: 2;
+}
+
+.hora3{
+    text-align: center;
+    font-size: 150%;
+    flex-grow: 1;
+    line-height: 2; 
+}
+
+.direccion{
+    font-size: 200%;
+    line-height: 2;
+    text-align: center;
+}
+
+.mapa{
+    display: inline-block;
+    padding:5px;
+    box-sizing: border-box;
+    float:right
+}
+
+.mapa img {
+    width:200px;
+    margin-right: 200px;
 }
