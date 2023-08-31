@@ -84,7 +84,6 @@ h1 {
 }
 
 /*Estilos*/
-
 .estilos1 {
     font-size: 25px;
     font-family: monospace;
@@ -98,8 +97,6 @@ h1 {
     font-style: italic;
     text-shadow: #000000;
 }
-
-
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {}
@@ -123,13 +120,6 @@ h1 {
         width: 50%;
     }
 }
-
-
-
-
-
-
-
 
 /*contactanos*/
 .contacto{
